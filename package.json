@@ -1,15 +1,24 @@
 {
-  "name": "Blockchain-coin",
+  "name": "blockchainCoin",
   "version": "1.0.0",
-  "description": "Blockchain project",
+  "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "Isaac",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isaac-code-star/Blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^6.0.1"
-  }
-  
+  "bugs": {
+    "url": "https://github.com/Isaac-code-star/Blockchain/issues"
+  },
+  "homepage": "https://github.com/Isaac-code-star/Blockchain#readme"
 }
