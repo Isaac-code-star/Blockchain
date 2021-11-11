@@ -30,6 +30,7 @@ body{
     padding: 6rem;
 
 
+
     &__logo{
         text-align: center;
     margin-bottom: 2rem;
@@ -154,8 +155,32 @@ body{
     font-size: 1.2rem;
     font-weight: 400;
 
-    
+
 }
+
+//Login resposiveness
+@media screen and (min-width: 564PX ) {
+    // 
+
+
+    .btm{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 320px){
+     .margin-left{
+              text-align: center;
+          }
+
+          .margin-left-small{         
+            margin-right: 50px;
+          }
+}
+
+
+
+
 
 
 
