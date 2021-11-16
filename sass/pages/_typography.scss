@@ -149,7 +149,7 @@ body{
         outline: none;
         border: none;
     }
-    
+
 }
 .link{
     display: block;
@@ -227,3 +227,48 @@ body{
     }
 }
 
+//transactino page
+
+.transact{
+    position: relative;
+    top: 5rem;
+
+    &__label{
+        font-size: 1.3rem;
+        display: block; 
+        font-weight: 700;
+    }
+
+
+    &__input1{
+        display: block;
+        margin-bottom: 3rem;
+        border-radius: 3px;
+        border: 1px solid #777;
+        height: 4rem;
+        width: 10rem;
+
+
+        &:focus{
+            border: 2px solid #777;
+            outline: none;
+            border-radius: 3px;
+
+        }
+    }
+
+    &__input{
+        padding: 1rem;
+        border-radius: 3px;
+        border: 1px solid #777;
+
+        
+        &:focus{
+            border: 2px solid #777;
+            outline: none;
+            border-radius: 3px;
+
+        }
+    }
+
+}

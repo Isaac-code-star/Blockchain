@@ -151,6 +151,33 @@ body {
     .copy-address button:active {
       background-color: #239cf8; }
 
+.transact {
+  position: relative;
+  top: 5rem; }
+  .transact__label {
+    font-size: 1.3rem;
+    display: block;
+    font-weight: 700; }
+  .transact__input1 {
+    display: block;
+    margin-bottom: 3rem;
+    border-radius: 3px;
+    border: 1px solid #777;
+    height: 4rem;
+    width: 10rem; }
+    .transact__input1:focus {
+      border: 2px solid #777;
+      outline: none;
+      border-radius: 3px; }
+  .transact__input {
+    padding: 1rem;
+    border-radius: 3px;
+    border: 1px solid #777; }
+    .transact__input:focus {
+      border: 2px solid #777;
+      outline: none;
+      border-radius: 3px; }
+
 .margin-left {
   margin-left: revert; }
 
@@ -161,3 +188,6 @@ body {
   position: relative;
   top: 10rem;
   text-decoration: none; }
+
+.mt-4 {
+  margin-top: 5rem; }
