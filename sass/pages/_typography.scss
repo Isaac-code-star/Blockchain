@@ -145,6 +145,11 @@ body{
         box-shadow: 0 5px 10px rgba($color-black, .2);
 
     }
+    &:focus{
+        outline: none;
+        border: none;
+    }
+    
 }
 .link{
     display: block;
