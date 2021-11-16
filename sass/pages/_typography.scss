@@ -158,9 +158,9 @@ body{
 
 }
 
-//Login resposiveness
+//Login resposiveness for mobile dvices
 @media screen and (min-width: 564PX ) {
-    // 
+  
 
 
     .btn{
@@ -179,10 +179,46 @@ body{
 }
 
 
+//user page
+.walletDetals{
+    margin-top: 8rem;
+
+    & .label{
+        font-size: 1.3rem;
+        padding: 10px 12px;
+        font-weight: 700;
+    }
+
+}
+
+.copy-address{
+    background-color: rgba(121, 121, 121, 0.433);
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+
+    & .text{
+        border: none;
+        padding:10px;
+        outline: none;
+       
+    }
+
+    & button{
+        padding: 10px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background-color: #1B5AB7;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: all .1s;
+
+        &:active{
+            background-color: #239cf8;
+        }
 
 
-
-
-
-
+    }
+}
 

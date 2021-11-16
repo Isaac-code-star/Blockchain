@@ -120,5 +120,41 @@ body {
   .margin-left-small {
     margin-right: 50px; } }
 
+.walletDetals {
+  margin-top: 8rem; }
+  .walletDetals .label {
+    font-size: 1.3rem;
+    padding: 10px 12px;
+    font-weight: 700; }
+
+.copy-address {
+  background-color: rgba(121, 121, 121, 0.433);
+  padding: 10px;
+  border-radius: 3px;
+  display: flex; }
+  .copy-address .text {
+    border: none;
+    padding: 10px;
+    outline: none; }
+  .copy-address button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #1B5AB7;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .1s; }
+    .copy-address button:active {
+      background-color: #239cf8; }
+
 .margin-left {
   margin-left: revert; }
+
+.cardWidth {
+  width: 60rem; }
+
+.mt {
+  position: relative;
+  top: 10rem;
+  text-decoration: none; }
